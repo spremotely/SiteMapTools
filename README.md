@@ -1,5 +1,5 @@
 # SiteMapTools
-.Net Standard library for sitemap manipulating - parse and scrap - enjoy!
+.Net Standard library for sitemap manipulating
 
 ## Usage
 
