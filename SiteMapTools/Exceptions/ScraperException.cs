@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SiteMapScraper.Exceptions
+namespace SiteMapTools.Exceptions
 {
     public class ScraperException : Exception
     {

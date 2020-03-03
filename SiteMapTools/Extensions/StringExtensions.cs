@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace SiteMapScraper.Extensions
+namespace SiteMapTools.Extensions
 {
     internal static class StringExtensions
     {

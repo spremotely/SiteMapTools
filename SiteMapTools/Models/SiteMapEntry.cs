@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SiteMapScraper.Models
+namespace SiteMapTools.Models
 {
     public class SiteMapEntry
     {

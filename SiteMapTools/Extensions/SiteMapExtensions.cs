@@ -1,5 +1,4 @@
-﻿using SiteMapScraper.Models;
-using SiteMapTools.Builders;
+﻿using SiteMapTools.Common;
 using SiteMapTools.Models;
 
 namespace SiteMapTools.Extensions

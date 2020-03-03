@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using SiteMapScraper.Extensions;
-using SiteMapScraper.Models;
+using SiteMapTools.Extensions;
 using SiteMapTools.Models;
 
-namespace SiteMapTools.Builders
+namespace SiteMapTools.Common
 {
     internal static class HierarchicalSiteMapBuilder
     {

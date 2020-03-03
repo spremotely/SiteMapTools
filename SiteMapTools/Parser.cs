@@ -2,9 +2,9 @@
 using System.Globalization;
 using System.Linq;
 using System.Xml;
-using SiteMapScraper.Models;
+using SiteMapTools.Models;
 
-namespace SiteMapScraper
+namespace SiteMapTools
 {
     internal class Parser
     {

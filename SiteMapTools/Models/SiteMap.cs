@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using SiteMapTools.Common;
 
-namespace SiteMapScraper.Models
+namespace SiteMapTools.Models
 {
     public class SiteMap
     {
@@ -16,6 +18,14 @@ namespace SiteMapScraper.Models
         {
             var parser = new Parser(siteMap);
             return parser.Parse();
+        }
+
+        public SiteMap Except(SiteMap siteMap)
+        {
+            return new SiteMap
+            {
+                Entries = this.Entries.Except(siteMap.Entries, new SiteMapEntryComparer()).ToList()
+            };
         }
     }
 }

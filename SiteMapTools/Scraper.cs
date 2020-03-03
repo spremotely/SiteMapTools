@@ -1,11 +1,8 @@
-﻿using System;
-using System.Globalization;
-using System.Net;
-using System.Xml;
-using SiteMapScraper.Exceptions;
-using SiteMapScraper.Models;
+﻿using System.Net;
+using SiteMapTools.Exceptions;
+using SiteMapTools.Models;
 
-namespace SiteMapScraper
+namespace SiteMapTools
 {
     internal class Scraper
     {
