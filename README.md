@@ -1,6 +1,12 @@
 # SiteMapTools
 .Net Standard library for sitemap manipulating
 
+## Installation
+
+```bash
+Install-Package SiteMapTools
+```
+
 ## Usage
 
 ```C#
